@@ -1,4 +1,7 @@
 import Bootloader from './Bootloader.js';
+import Play from './scenes/Play.js';
+import Menu from './scenes/Menu.js';
+import UI from './scenes/UI.js';
 
 const config = {
     title: "TOM",
@@ -17,11 +20,14 @@ const config = {
         "arcade": {
             gravity: {
                 y: 2000
-            }
+            },
         }
     },
     scene: [
-        Bootloader
+        Bootloader,
+        UI,
+        Play,
+        Menu
     ]
 };
 
