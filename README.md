@@ -1,4 +1,4 @@
-# tom-game
+# Tom Game
 
 [Link del juego](https://unruffled-bhaskara-a09e19.netlify.app/)
 
