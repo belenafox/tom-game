@@ -38,6 +38,7 @@ class UI extends Phaser.Scene {
         });
         this.registry.events.on('game_over', () => {
             this.registry.events.removeAllListeners();
+            this.scene.stop('Play');
             this.scene.start('Menu', {points: this.actual_points});
         });
 
